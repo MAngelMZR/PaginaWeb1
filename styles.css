@@ -2,17 +2,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('tecnologia3.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
+    background-position: center; /* Centra la imagen en el cuerpo */
+    color: #fff; /* Ajusta el color del texto para que sea legible en el fondo */
 }
 
 header {
-    background-color: blue; /* Cambiado a azul */
-    color: #fff;
+    background-color: #191919; /* Cambiado a azul */
+    color: #ffffff;
     text-align: center;
     padding: 1em;
 }
 
 nav {
-    background-color: #fff; /* Cambiado a blanco */
+    background-color: #BED754; /* Cambiado a blanco */
     padding: 0.5em;
 }
 
@@ -40,7 +44,7 @@ section {
 }
 
 footer {
-    background-color: red; /* Cambiado a rojo */
+    background-color: #750E21; /* Cambiado a rojo */
     color: #fff;
     text-align: center;
     padding: 1em;
