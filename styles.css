@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://github.com/MAngelMZR/PaginaWeb1/blob/master/tecnologia6.jpg?raw=true'); /* Ruta de tu imagen de fondo */
+    background-image: url('https://img.freepik.com/free-vector/abstract-realistic-technology-particle-background_52683-33063.jpg?w=740&t=st=1701550252~exp=1701550852~hmac=fb9a89b3ccfe69d683584390ad73ccac2824597087c49b8ea23855bae63d7b08'); /* Ruta de tu imagen de fondo */
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
     background-position: center; /* Centra la imagen en el cuerpo */
     color: #fff; /* Ajusta el color del texto para que sea legible en el fondo */
@@ -13,6 +13,21 @@ header {
     color: #ffffff;
     text-align: center;
     padding: 1em;
+}
+
+.logo {
+    max-width: 100px;
+    margin: 25px;
+    position: absolute;
+    top: 0;
+}
+
+.logo:first-child {
+    left: 300px;
+}
+
+.logo:last-child {
+    right: 300px;
 }
 
 nav {
@@ -52,3 +67,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
